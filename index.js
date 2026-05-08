@@ -24,7 +24,7 @@ app.set("layout", "layouts/main");
 // Routes
 app.get("/", (req, res) => {
     var user = {name: "Kervi Jhonata", age: 26}
-    res.render("single", {title: "HypnoApp", user})
+    res.render("teste", {title: "HypnoApp", user})
 })
 
 app.get("/test", (req, res) => {

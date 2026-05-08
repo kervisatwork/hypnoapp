@@ -8,10 +8,10 @@
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
 </head>
 <body>
-    <%- include('../partials/Header.ejs') %>
-    <%- include('../partials/Nav.ejs') %>
-    <%- include('../partials/Main.ejs') %>
-    <%- include('../partials/Footer.ejs') %>
+    <%- include('../partials/_Header.ejs') %>
+    <%- include('../partials/_Nav.ejs') %>
+    <%- include('../partials/_Main.ejs') %>
+    <%- include('../partials/_Footer.ejs') %>
     <!-- <header>
         Header
         <span>Olá, <%= user.name%>!</span>
@@ -25,6 +25,12 @@
     <footer>
         Footer
     </footer> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
     <script type="module" src="js/script.js"></script>
 </body>
 </html>

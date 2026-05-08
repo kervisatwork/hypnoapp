@@ -12,3 +12,20 @@ html {
     background-color: var(--html-bg-color);
     color: var(--html-text-color);
 }
+
+/* Estrutura global: classes */
+/* Grid layout */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* Divide em 12 partes iguais */
+  gap: 16px;                              /* Espaçamento entre colunas */
+  width: 100%;
+  box-sizing: border-box;
+}
+.col-span1  { grid-column: span 1; }
+.col-span2  { grid-column: span 2; }
+.col-span3  { grid-column: span 3; }
+.col-span4  { grid-column: span 4; }
+.col-span6  { grid-column: span 6; } /* Ocupa metade (50%) */
+.col-span8  { grid-column: span 8; }
+.col-span12 { grid-column: span 12; }

@@ -1,0 +1,48 @@
+<header id="webpage-header">
+    <div class="row">
+        <div class="col-span6" id="header-logo">
+            <span>logo</span>HypnoApp
+        </div>
+        <div class="col-span6" id="side-options">
+            <span id="btn-toggleMenu">
+                <span class="linebar"></span>
+                <span class="linebar"></span>
+                <span class="linebar"></span>
+            </span>
+        </div>
+    </div>
+</header>
+
+<style>
+    #webpage-header {
+        width: 100vw;
+        background-color: limegreen;
+        color: black;
+        padding: 20pt;
+        box-sizing: border-box;
+
+        #side-options {
+            display: flex;
+            place-content: end;
+            
+            #btn-toggleMenu {
+                background-color: white;
+                width: 32pt;
+                height: 32pt;
+                font-size: 20pt;
+                display: flex;
+                flex-flow: column wrap;
+                gap: 3px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 3px;
+                
+                .linebar {
+                    width: 20px;
+                    height: 3px;
+                    background-color: black;
+                }
+            }
+        }
+    }
+</style>
