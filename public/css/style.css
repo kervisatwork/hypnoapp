@@ -1,0 +1,14 @@
+:root {
+    /* Primary colors */
+    --charcoalBlack: #2b2b2b;
+    --whiteSmoke: #ebebeb;
+
+    /* Token global */
+    --html-bg-color: var(--charcoalBlack);
+    --html-text-color: var(--whiteSmoke);
+}
+
+html {
+    background-color: var(--html-bg-color);
+    color: var(--html-text-color);
+}
